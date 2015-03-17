@@ -1,0 +1,87 @@
+a {
+  color: darkgrey;
+}
+a:hover {
+  color: lightgrey;
+}
+.resource-names {
+  font-weight: 800;
+  font-size: large;
+  color: darkgrey;
+  padding: 2em;
+}
+.data {
+  margin-left: 20%;
+}
+.info {
+  margin: 2em;
+  margin-left: 3em;
+}
+.image-container {
+  float: left;
+  width: 350px;
+}
+.image {
+  margin-left: 1em;
+}
+.label {
+  width: 150px;
+  color: white;
+  background-color: #3D3D3D;
+  padding: 5px;
+}
+.text {
+  text-align: center;
+  width: 150px;
+}
+.link-tos {
+  margin: 10px;
+}
+
+/* form styles */
+.button-save {
+  background: rgb(88, 88, 88);
+  color: white;
+  margin: 1em .5em 0em;
+}
+.button-cancel {
+  background: rgb(176, 176, 176);
+  margin: 1em 0.5em 0em;
+}
+/* problems */
+.problem-container {
+  float: left;
+  width: 250px;
+}
+.problem-frame {
+  height: 300px;
+  width: 220px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 75px;
+}
+.given-problem {
+  height: 160px;
+  width: 130px;
+  margin-top: 45px;
+  margin-left: 45px;
+}
+.problem-top {
+  height: 50px;
+  width: 150px;
+  margin-left: 5px;
+  padding-top: 10px;
+}
+.problem-bottom {
+  height: 70px;
+  width: 150px;
+  margin-left: -10px;
+  padding-top: 25px;
+  border-bottom: 1px solid black;
+}
+.answer-problem {
+  height: 55px;
+  width: 190px;
+  margin-top: 5px;
+  margin-left: 5px;
+}

@@ -1,0 +1,22 @@
+<div class="pure-g">
+  <div class="content pure-u-1-4"></div>
+  <div class="content pure-u-3-4">
+    <div class="link-tos">
+      {{link-to 'Create a new classroom' 'classrooms.new'}}
+    </div>
+    <table class="pure-table pure-table-striped">
+      <thead>
+        <th>Name</th>
+        <th></th>
+      </thead>
+      <tbody>
+        {{#each classroom in model}}
+          <tr>
+            <td class="resource-names">{{link-to classroom.name 'classrooms.show' classroom}}</td>
+            <td><a href="#" {{action "delete" classroom}}>Delete</a></td>
+          </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </div>
+</div>
